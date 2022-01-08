@@ -1,0 +1,309 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>admission portal</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- user define css -->
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      class="bg-primary d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 text-white border-bottom shadow-sm"
+    >
+      <h2 class="my-0 mr-md-auto font-weight-normal">
+        <i> College Admission Management System</i>
+      </h2>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-white" href="/">Home</a>
+     
+      </nav>
+      <div>
+        <a class="btn btn-outline-danger text-white" href="/admin/"
+          >Admin Login</a
+        >
+        <a class="btn btn-outline-danger text-white" href="/login/">Login</a>
+        <a class="btn btn-outline-danger text-light" href="/signup/">Sign Up</a>
+      </div>
+    </div>
+
+    <div class="position-relative">
+      <div
+        id="carouselExampleFade "
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="{% static 'image/banner1.jpg' %}"
+              class="d-block w-100 crausl"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="{% static 'image/banner2.jpg' %}"
+              class="d-block w-100 crausl"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="{% static 'image/banner3.jpeg' %}"
+              class="d-block w-100 crausl"
+              alt="..."
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleFade"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleFade"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <br />
+      <div class="container col-8">
+        <div class="card">
+          <div class="card-header text-center p-3 mb-2 bg-primary text-white">
+            <h4>Latest Update</h4>
+          </div>
+          <div class="card-body overflow-auto">
+            <h4 class="card-title text-center text-success">
+              <strong>Comming Soon</strong>
+              
+            </h4>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <br >
+      <!-- <div class="container col-6 text-center alert alert-danger">
+        <h1>admission open</h1>
+      </div> -->
+      <div class="container ">
+        
+        <div class="row">
+          <div class="col-4">
+            <div >
+              <img src="{% static 'image/gg1.png' %}" class="rounded-circle " alt="...">
+            </div>
+              <div class="">
+              <h3 class="text-center">We use data.</h3>
+              <p>With millions of data points from real students and admissions results, we study what works and doesn't, then apply it to your application to make it unique. You benefit from the experience of tons of students before you.
+
+                Think of it like Moneyball for college admissions</p>
+            </div>
+          </div>
+        
+        <div class="col-4">
+          <div class="pngpi">
+            <img src="{% static 'image/gg.png' %}" class="rounded-circle" alt="...">
+          </div>
+          <div class="">
+            <h3 class="text-center">We hire only the best.</h3>
+            <p>We are unapologetically selective with our hiring standards. We hire only 1 out of 205 applicants, and we weed out anyone who doesn't meet our unbelievably high standards.
+
+              When you meet your PrepScholar consultant, you'll trust this person has been vetted and tested thoroughly. Unlike other services, you won't get some random college student.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="pngpi">
+            <img src="{% static 'image/gg3.png' %}" class="rounded-circle" alt="...">
+          </div>
+          <div class="">
+            <h3 class="text-center">Proprietary admissions strategy.</h3>
+            <p>The way we approach admissions comes from decades of collective experience getting students into schools. We codified this into 74 Principles that we apply to every student's application.
+
+              Moreover, we refine our strategy every year based on how admissions is changing</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    
+    <br />
+<div class="container  alert-success">
+  <div><br><br>
+   <h1 class=" text-dark text-center">Take the First Step to Success</h1>
+</div><br>
+<div>
+  <div>
+    <h5 class=" text-dark text-center">College admissions is too important. Don't leave anything to chance</h5>
+ </div><br>
+ <div class=" text-dark text-center">
+  <h5>Learn more about onlion admissions Management services and find the right course for you.</h5>
+</div><br><br>
+<div class="text-center ">
+  <a  class="  btn btn-primary  text-light"href="/signup/">Get Started</a>
+</div>
+<br><br>
+</div>   
+</div>
+    <br />
+    <div class="container">
+      <div class="text-center">
+        <h3 class="alert alert-danger">Our Facilites</h3>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="{% static 'image/clg1.jpeg' %}"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mt-4">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="{% static 'image/cls2.jpeg' %}"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 ">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="{% static 'image/cls3.webp' %}"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="col-4 ">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="{% static 'image/cls4.webp' %}"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mt-4">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="{% static 'image/cls5.jpeg' %}"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="{% static 'image/cls6.webp' %}"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <br ><br >
+    <div class="card text-center bg-secondary">
+      <div class="card-header text-white">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-light">College Admission Management System</h5>
+        <p class="card-text text-light">College admissions is too important. Don't leave anything to chance.</p>
+        <a href="" class="btn btn-primary text-light">Goto Top</a>
+        
+      </div>
+      <div class="card-footer text-muted text-light">
+        @copy 2020-2021
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
